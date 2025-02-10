@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CS4241 Assignment 2</title>
+  <meta charset="utf-8" />
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+
+  <!-- get rid of favicon error -->
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+</head>
+
+<body style="background-color: #ce5555;">
+  <div id="main">
+    <form class="nes-container" style="background-color: #ffbbbb;">
+      <div class="formGroup">
+        <label for="Player Name">Your Player Name: </label>
+        <input type="text" id="name" value="Player name here" class="nes-input"/>
+      </div>
+      <br />
+      <div class="formGroup">
+        <label for="Highscore">Your Highscore: </label>
+        <input type="text" id="score" value="your score here" class="nes-input"/>
+      </div>
+      <br />
+      <div class="formGroup">
+        <label for="Date">Date of Highscore: </label>
+        <input type="date" id="date" class="nes-input"/>
+      </div>
+      <br />
+      <div id="submitButtonDiv">
+        <button id="submitButton" class="nes-btn is-warning">Submit</button>
+        <button id="checkButton" class="nes-btn is-warning">Check Scores</button>
+      </div>
+    </form>
+
+    <br>
+
+    <div class="nes-table-responsive">
+      <table class="nes-table is-bordered">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Score</th>
+            <th>Date</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>

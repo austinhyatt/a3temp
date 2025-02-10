@@ -1,0 +1,9 @@
+body {
+    background-color: #ddbd81;
+}
+
+form {
+    width: 300px; /* Adjust width as needed */
+    margin: 50px auto; /* Centers the form */
+    padding: 20px;
+}
