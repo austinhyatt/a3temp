@@ -1,0 +1,1 @@
+{ "version": 2, "devCommand": "node app.js", "buildCommand": "node app.js" }
