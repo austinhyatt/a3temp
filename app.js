@@ -23,7 +23,7 @@ const port = process.env.PORT || 3000;
 const appdata = [];
 const dir = "public";
 
-const url = "mongodb+srv://austin:mingming7ate9@austina3.uwuux.mongodb.net/?retryWrites=true&w=majority&appName=AustinA3";
+const url = "mongodb+srv://austin:mingming7ate9@austina3.uwuux.mongodb.net/";
 const dbconnect = new MongoClient(url);
 let scoresCollection = null;
 
